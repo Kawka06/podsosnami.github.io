@@ -403,13 +403,13 @@ section{
 }
 
 .contact .share a{
-  color: var(--primary);
+  color: var(--black);
   font-size: 2rem;
   width: 5rem;
   height: 5rem;
   line-height: 5rem;
   border-radius: 50%;
-  border: .1rem solid var(--primary);
+  border: .1rem solid var(--black);
   margin: .3rem;
   text-transform: none;
 }
