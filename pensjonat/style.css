@@ -127,7 +127,7 @@ section{
 
 .home .slide .content h3{
   font-size: 4rem;
-  text-transform: uppercase;
+  text-transform: none;
   color: var(--white);
   line-height: 1.1;
   padding: 2rem 0;
@@ -187,6 +187,7 @@ section{
   color: #666;
   padding: 1rem 0;
   line-height: 2;
+  text-transform: none;
 }
 
 /* end */
@@ -235,6 +236,7 @@ section{
 .room .slide .content h3{
   font-size: 2.5rem;
   color: var(--black);
+  text-transform: none;
 }
 
 .room .slide .content p{
@@ -242,29 +244,30 @@ section{
   color: #666;
   padding: .5rem 0;
   line-height: 1.5;
+  text-transform: none;
 }
 /* end */
 /* gallery */
 
 .gallery .slide{
   height: 50rem;
-  width: 50rem;
+  width: 120rem;
   position: relative;
-  overflow: hidden;
+  overflow:inherit;
   
 }
 
 .gallery .slide img{
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit:cover;
 }
 
 .gallery .slide .icon{
   display: none;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   top: 0; left: 0;
   z-index: 10;
   height: 100%;
@@ -273,15 +276,7 @@ section{
   
 }
 
-.gallery .slide .icon i{
-  font-size: 6rem;
-  color: var(--white);
-  margin-bottom: 5rem;
-}
 
-.gallery .slide:hover .icon{
-  display: flex;
-}
 
 /* end */
 /* Offer*/
@@ -337,6 +332,7 @@ section{
 .offer .content h3 {
   font-size: 2.5rem;
   color: var(--black);
+  text-transform: none;
 }
 
 .offer .content p {
@@ -344,13 +340,18 @@ section{
   color: #050505;
   padding: 5 rem ;
   line-height: 2;
-  
+  text-transform: none;
 }
 
 .offer .content p.price{
   text-align: center;
   font-size: 2rem;
   color:var(--primary);
+}
+.offer .content p.eat{
+  text-align: center;
+  font-size: 1.5rem;
+  color:var(--black);
 }
 /* end */
 /* contact */
@@ -369,12 +370,14 @@ section{
   grid-row-gap: 0px;
   text-align: center; 
   vertical-align: middle;
+  text-transform: none;
   }
 
 .contact .box-container .box h3{
   font-size: 2.2rem;
   padding: 1rem 0;
   color: var(--black#333);
+  text-transform: none;
 }
 
 .contact .box-container .box a{
@@ -382,6 +385,7 @@ section{
   display: block;
   color: var(--white);
   padding: 1rem 0;
+  text-transform: none;
 }
 
 .contact .box-container .box a i{
@@ -407,6 +411,7 @@ section{
   border-radius: 50%;
   border: .1rem solid var(--primary);
   margin: .3rem;
+  text-transform: none;
 }
 
 .contact .share a:hover{
