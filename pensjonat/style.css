@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
-    --primary:#2ab600;
+    --primary:#1d7c00;
     --secondary:#0c0c0c88;
     --black:#000000;
     --white:#ffffff;
@@ -193,12 +193,17 @@ section{
 /* end */
 /* rooms */
 
+.room{
+  background-color: #ccdbc7;
+}
 .room .slide{
   background: var(--white);
   border: .1rem solid rgba(0, 0, 0, 0.2);
   border-radius: .5rem;
   box-shadow: var(--box-shadow);
   margin-bottom: 5rem;
+  margin-left: 17rem;
+  margin-right: 17rem;
 }
 
 .room .slide .image{
@@ -207,6 +212,7 @@ section{
   padding: 1.5rem;
   overflow: hidden;
   position: relative;
+
 }
 
 .room .slide .image img{
@@ -245,6 +251,7 @@ section{
   padding: .5rem 0;
   line-height: 1.5;
   text-transform: none;
+  
 }
 /* end */
 /* gallery */
@@ -254,7 +261,8 @@ section{
   width: 120rem;
   position: relative;
   overflow:inherit;
-  
+  transition-duration: 1ms;
+  transition-delay: 0ms;
 }
 
 .gallery .slide img{
@@ -283,7 +291,7 @@ section{
 
 .offer-section {
   padding: 5rem 7%;
-  background: #f5f5f5; /* Adjust the background color if needed */
+  background: #ccdbc7; /* Adjust the background color if needed */
 }
 
 .offer-section .heading {
@@ -396,10 +404,14 @@ section{
 .contact .box-container .box a:hover{
   color: var(--primary);
 }
+ 
+
 
 .contact .share{
+  
   padding-top: 2rem;
   text-align: center;
+  align-items: center;
 }
 
 .contact .share a{
@@ -433,7 +445,7 @@ section{
   color: rgb(255, 255, 255);
 }
 .contact .box-container .box iframe {
-  width: 190%;
+  width: 200%;
   height: 25rem;
   border-radius: .5rem;
   box-shadow: var(--box-shadow);
