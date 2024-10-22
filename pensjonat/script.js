@@ -54,10 +54,10 @@ var swiper = new Swiper(".room-slider", {
 var swiper = new Swiper(".gallery-slider", {
     spaceBetween: 10,
     grabCursor:true,
-    loop:false,
+    loop:true,
     centeredSlides:false,
     autoplay: {
-        delay: 7500,
+        delay: 750,
         disableOnInteraction: false,
     },
     pagination: {
